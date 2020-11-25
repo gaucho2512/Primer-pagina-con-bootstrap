@@ -1,0 +1,79 @@
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.image-logo{
+    width: 15%;
+}
+
+.image-corona{
+    width: 100%;
+}
+
+
+.image-lio{
+    width: 100%;
+}
+
+header{
+    margin-top: 65px;
+    margin-bottom: 80px;
+}
+
+.subtitulo{
+    margin-bottom: 35px;
+    text-align: center;
+    
+}
+
+footer{
+    background-image: url(../images/mano2.jpg);
+    background-repeat: no-repeat;
+ 
+}
+
+.coment{
+    text-align-last: center;
+    font-size: 40px;
+    color: #d789d7;
+    margin-top: 100px;
+}
+
+.coment-parrafo{
+    text-align: center;
+    font-size: 20px;
+    color: #5d54a4;
+}
+
+.mano{
+    width: 20%;
+    margin-left: 215px;
+}
+
+
+
+/* media @ */
+
+
+
+@media only screen and (max-width: 600px){
+           .image-logo{
+               margin: auto;
+               float: right;
+           }
+
+           .mano{
+               margin: auto;
+              
+           }
+
+           .coment , .coment-parrafo{
+               text-align: start;
+           }
+
+        
+
+        }
